@@ -1,6 +1,7 @@
 <template>
   <div>
-    <h1>develop ブランチ VueChat - チャットルーム一覧</h1>
+    <h1>VueChat - チャットルーム一覧</h1>
+    <h1>develop ブランチ</h1>
     <ul>
       <li v-for="room in chatRooms" :key="room.id">
         <router-link :to="`/rooms/${room.id}`">{{ room.name }}</router-link>
